@@ -3,6 +3,13 @@ jQuery.ganttView v.0.8.0
 Copyright (c) 2010 JC Grubbs - jc.grubbs@devmynd.com
 MIT License Applies
 */
+/*解决 干特图与 bootstarap 的冲突  */
+#ganttChart *{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
 
 div.ganttview-hzheader-month,
 div.ganttview-hzheader-day,
